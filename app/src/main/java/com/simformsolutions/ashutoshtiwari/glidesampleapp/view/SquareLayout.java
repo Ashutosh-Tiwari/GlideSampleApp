@@ -1,4 +1,4 @@
-package com.simformsolutions.ashutoshtiwari.glidesampleapp;
+package com.simformsolutions.ashutoshtiwari.glidesampleapp.view;
 
 import android.content.Context;
 import android.os.Build;

@@ -9,6 +9,7 @@ import retrofit2.http.GET;
 
 /**
  * Created by Ashutosh.tiwari on 21/07/17.
+ * Retrofit Client Interface
  */
 
 public interface RetrofitClient {

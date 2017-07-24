@@ -55,11 +55,9 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.MyViewHo
 
         private GalleryThumbnailBinding thumbnailBinding;
 
-        public MyViewHolder(GalleryThumbnailBinding thumbnailBinding) {
+        private MyViewHolder(GalleryThumbnailBinding thumbnailBinding) {
             super(thumbnailBinding.getRoot());
             this.thumbnailBinding = thumbnailBinding;
         }
-
-
     }
 }

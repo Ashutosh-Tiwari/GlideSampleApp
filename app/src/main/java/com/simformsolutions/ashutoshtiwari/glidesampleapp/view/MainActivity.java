@@ -19,14 +19,9 @@ import com.simformsolutions.ashutoshtiwari.glidesampleapp.viewmodel.MyViewModel;
 
 public class MainActivity extends AppCompatActivity {
 
-
-    private String TAG = MainActivity.class.getSimpleName();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
-        GalleryAdapter mAdapter;
 
         final ActivityMainBinding mainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         mainBinding.includedLayout.recyclerView.setLayoutManager(new GridLayoutManager(getApplicationContext(), 2));

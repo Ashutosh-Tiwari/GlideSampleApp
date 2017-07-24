@@ -1,4 +1,1 @@
-#GlideSampleApp
-
-The app demonstrates the use of Glide image processing library with Recycler view and coordinator layout.
-The master branch is not following any specific architecture pattern.
+#GlideMVVM - The app is same but consists modified version of code demonstrating the app structure in MVVM with data binding pattern

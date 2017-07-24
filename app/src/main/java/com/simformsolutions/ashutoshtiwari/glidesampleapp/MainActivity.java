@@ -1,6 +1,5 @@
 package com.simformsolutions.ashutoshtiwari.glidesampleapp;
 
-import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
     private String TAG = MainActivity.class.getSimpleName();
     private ArrayList<Image> images;
-    private ProgressDialog pDialog;
     private GalleryAdapter mAdapter;
     private RecyclerView recyclerView;
 
@@ -39,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-
-        pDialog = new ProgressDialog(this);
         images = new ArrayList<>();
         mAdapter = new GalleryAdapter(getApplicationContext(), images);
 

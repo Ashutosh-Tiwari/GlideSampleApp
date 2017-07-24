@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 
 /**
  * Created by Ashutosh.tiwari on 21/07/17.
+ * Standard POJO model
  */
 
 public class Images  {

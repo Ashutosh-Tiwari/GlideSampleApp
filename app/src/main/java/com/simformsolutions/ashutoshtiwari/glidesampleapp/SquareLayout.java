@@ -8,6 +8,7 @@ import android.widget.RelativeLayout;
 
 /**
  * Created by Ashutosh.tiwari on 21/07/17.
+ * Custom Layout for making the image tile to be a square layout
  */
 
 public class SquareLayout extends RelativeLayout {
